@@ -1,0 +1,131 @@
+<html>
+
+<head>
+    <title>movies</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="sideNav d-flex">
+            <div class="navMenu bg-black p-2 justify-content-between">
+                <div class="menuCategories fw-light">
+                    <ul>
+                        <li class="item1">Now Playing</li>
+                        <li class="item2">Popular</li>
+                        <li class="item3">Top Rated</li>
+                        <li class="item4">Trending</li>
+                        <li class="item5">Upcoming</li>
+                        <li class="item6">Contac Us</li>
+                    </ul>
+                </div>
+                <div class="menuSocial text-white p-2">
+                    <i class=" fab fa-facebook-f"></i>
+                    <i class=" fab fa-twitter"></i>
+                    <i class="fas fa-globe pb-2"></i>
+                    <h5 class=" fs-6 text-muted py-2">Copyright Â© 2019 All Rights Reserved.</h5>
+                </div>
+            </div>
+            <div class="strip py-2 bg-white d-flex justify-content-between align-items-center">
+                <div class="stripLogo">
+                    <img src="images/logo1.png" alt="">
+                </div>
+                <div class="toggleMenu">
+                    <i class="togIcon fa fa-align-justify"></i>
+                </div>
+                <div class="stripSocial">
+                    <i class="fas fa-globe d-block pb-2"></i>
+                    <i class="fas fa-share-alt"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container w-75 py-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="">
+                        <input class="searchByWordInput form-control text-center text-muted bg-transparent" type="text"
+                            placeholder="get movies by word...">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="">
+                        <input class="searchInput form-control text-center text-muted bg-transparent " type="text"
+                            placeholder="search...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row gx-3 gy-3 data">
+                
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="container w-75 py-5 contact">
+            <h2 class=" pb-3 text-white">ContacUs...</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="py-3">
+                        <input class="nameInput form-control text-center text-muted bg-transparent " type="text"
+                            placeholder="Enter Your Name">
+                        <h4 class="nameAlert d-none fs-6 alert alert-danger">Your Name is not valid</h4>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class=" py-3">
+                        <input class="mailInput form-control text-center text-muted bg-transparent " type="text"
+                            placeholder="Enter E-mail">
+                        <h4 class="mailAlert d-none fs-6 alert alert-danger">Your Mail is not valid</h4>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class=" py-3">
+                        <input class="phoneInput form-control text-center text-muted bg-transparent" type="text"
+                            placeholder="Enter Phone">
+                        <h4 class="phoneAlert d-none fs-6 alert alert-danger">Your Phone is not valid</h4>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class=" py-3">
+                        <input class="ageInput form-control text-center text-muted bg-transparent " type="text"
+                            placeholder="Enter Age">
+                        <h4 class="ageAlert d-none fs-6 alert alert-danger">Your Age is not valid</h4>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class=" py-3">
+                        <input class="passwordInput form-control text-center text-muted bg-transparent" type="password"
+                            placeholder="Enter Password">
+                        <h4 class="passAlert d-none fs-6 alert alert-danger">entre valid password *Minimum eight characters, at
+                            least one letter and one number</h4>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class=" py-3">
+                        <input class="repassInput form-control text-center text-muted bg-transparent " type="password"
+                            placeholder="ReEnter Password">
+                        <h4 class="repassAlert d-none fs-6 alert alert-danger">Not the same Password</h4>
+                    </div>
+                </div>
+            </div>
+            <button class="sub btn btn-outline-danger" type="submit" disabled>Submit</button>
+        </div>
+    </section>
+
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
